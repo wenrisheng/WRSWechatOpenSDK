@@ -1,0 +1,6 @@
+framework module WRSWechatOpenSDK {
+  umbrella header "WRSWechatOpenSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

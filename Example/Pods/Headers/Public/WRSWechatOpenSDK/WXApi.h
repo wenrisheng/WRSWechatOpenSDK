@@ -1,0 +1,1 @@
+../../../../../V2.0.2/WechatOpenSDK-XCFramework.xcframework/ios-arm64_i386_x86_64-simulator/Headers/WXApi.h

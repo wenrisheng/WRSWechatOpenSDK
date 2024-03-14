@@ -1,0 +1,6 @@
+framework module Pods_WRSWechatOpenSDK_Tests {
+  umbrella header "Pods-WRSWechatOpenSDK_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

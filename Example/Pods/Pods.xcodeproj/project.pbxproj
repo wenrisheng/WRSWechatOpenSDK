@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		FE49D7149F9D029C555211948A929C1D /* WRSWechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 90AB2B009201893513716A77979DD021 /* Build configuration list for PBXAggregateTarget "WRSWechatOpenSDK" */;
+			buildPhases = (
+				20AF86FB3BB78B024F08E520E2293C49 /* [CP] Copy XCFrameworks */,
+			);
+			dependencies = (
+			);
+			name = WRSWechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0B81A4C42D99D5C07B448EC5D7DC417D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		10ADAFCECF14560D84053A7328CEC872 /* Pods-WRSWechatOpenSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FD9D2A58B197163CFB54BEB3E79894E3 /* Pods-WRSWechatOpenSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6954F75ADF56E9C3AC5FADA6286F96EF /* Pods-WRSWechatOpenSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 201E8640650F6717A7FA139FE37FF224 /* Pods-WRSWechatOpenSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B81AEF54FB62F6BA7C920AF55FF6CA8F /* Pods-WRSWechatOpenSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B101D25448B2B30BFD0C2A52DD72692E /* Pods-WRSWechatOpenSDK_Tests-dummy.m */; };
+		BA60511D83DF78720BC90FC903D93924 /* Pods-WRSWechatOpenSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4F0D4D221068E7AE25D20AEE785AC0 /* Pods-WRSWechatOpenSDK_Example-dummy.m */; };
+		F265A6CE6CBD5307216E0000F744546B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F726E2E2F56004035669574E29C95B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B84BC3FB28C503DAC4B0B6B5BC94FD53;
+			remoteInfo = "Pods-WRSWechatOpenSDK_Example";
+		};
+		FD225D6DCD5C37147011E2CFA0FE9435 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE49D7149F9D029C555211948A929C1D;
+			remoteInfo = WRSWechatOpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BB2F2408F7AEFD64B13A7260E6E2A41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1692F8E5E3AFB445C50B22A68F1670A4 /* WRSWechatOpenSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WRSWechatOpenSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1AD231E87E9932F1571A61E8145DD60B /* Pods-WRSWechatOpenSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRSWechatOpenSDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		201E8640650F6717A7FA139FE37FF224 /* Pods-WRSWechatOpenSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRSWechatOpenSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		21EA886C33410288E2B5ADFC6C993BE7 /* Pods-WRSWechatOpenSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WRSWechatOpenSDK_Tests"; path = Pods_WRSWechatOpenSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		29B8CCB2603C3C3A6C5E5888229CE066 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		318338D8D7C64371EF8FE4527EDCC618 /* WRSWechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRSWechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		32F720023B5DB0938C2DD85E2BF2B9DA /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		4E6543720B25A54231D812AB2B995F60 /* Pods-WRSWechatOpenSDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRSWechatOpenSDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F34DA80B643D79E7FA79F4849296F41 /* Pods-WRSWechatOpenSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRSWechatOpenSDK_Example-Info.plist"; sourceTree = "<group>"; };
+		5D0A1A92F774DEF19F08BAF21B9B3F96 /* Pods-WRSWechatOpenSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSWechatOpenSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		66403C90E4DCD89CF5BD06072F0A2308 /* WRSWechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WRSWechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		6F2CE18666E369A025DE455FD1350E82 /* Pods-WRSWechatOpenSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRSWechatOpenSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75C98290C78265B651D2E1834B1A4A60 /* Pods-WRSWechatOpenSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WRSWechatOpenSDK_Tests.modulemap"; sourceTree = "<group>"; };
+		763D91551FADDD6715516F17241F7A53 /* Pods-WRSWechatOpenSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSWechatOpenSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8FF06582F1E2746D2194DA5E401681 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		983B5665E04DC8340112501734EC58F1 /* WechatOpenSDK-XCFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = "WechatOpenSDK-XCFramework.xcframework"; path = "V2.0.2/WechatOpenSDK-XCFramework.xcframework"; sourceTree = "<group>"; };
+		9988585A2264BF204BD1A095675F011B /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A310255759AB1601454EE97E4752F62B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A3F21B069FAA35B266620F0647D7B19F /* Pods-WRSWechatOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSWechatOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B101D25448B2B30BFD0C2A52DD72692E /* Pods-WRSWechatOpenSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRSWechatOpenSDK_Tests-dummy.m"; sourceTree = "<group>"; };
+		C21C25C6BC7B1ECF522C3B178A29F2C3 /* Pods-WRSWechatOpenSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRSWechatOpenSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C3B5E9882E491FC195832C1823A9F6FD /* Pods-WRSWechatOpenSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WRSWechatOpenSDK_Example.modulemap"; sourceTree = "<group>"; };
+		C842A4434B3D237A141FA324602A266A /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		CE4F0D4D221068E7AE25D20AEE785AC0 /* Pods-WRSWechatOpenSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRSWechatOpenSDK_Example-dummy.m"; sourceTree = "<group>"; };
+		E1E6C6225649DDA22E4F5870D8493EC1 /* WRSWechatOpenSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "WRSWechatOpenSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		F4E6A8A8405ED9E9EA158983E03421C7 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		F7F6EC58E2CAB7F99C2E4E82C8386CF7 /* Pods-WRSWechatOpenSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRSWechatOpenSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FA202F6DCBFFCF54A3964B5B82874D24 /* Pods-WRSWechatOpenSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WRSWechatOpenSDK_Example"; path = Pods_WRSWechatOpenSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB26756A29C365ACD36C1AD08A17F48 /* Pods-WRSWechatOpenSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSWechatOpenSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FD9D2A58B197163CFB54BEB3E79894E3 /* Pods-WRSWechatOpenSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRSWechatOpenSDK_Example-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		784CF711F2B1BBB21C93E7D928FA9D8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B81A4C42D99D5C07B448EC5D7DC417D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBDFCA08D94E0C844CC2981F90A671E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F265A6CE6CBD5307216E0000F744546B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5090260D787E0079F3ED2376C2B0F572 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E1E6C6225649DDA22E4F5870D8493EC1 /* WRSWechatOpenSDK-xcframeworks.sh */,
+				318338D8D7C64371EF8FE4527EDCC618 /* WRSWechatOpenSDK.debug.xcconfig */,
+				66403C90E4DCD89CF5BD06072F0A2308 /* WRSWechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WRSWechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F253D685C1382930BAD9E4F0FEB4EA9 /* WRSWechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C039B22679DDD5038DA93F937BD615D4 /* Frameworks */,
+				C73598A621245318AE2FF9D3C96DFC37 /* ios-arm64_armv7 */,
+				6C76A9B8D71E395CD3936610CA997B57 /* ios-arm64_i386_x86_64-simulator */,
+				82FCB49781E98C475D0594F6D8622086 /* Pod */,
+				5090260D787E0079F3ED2376C2B0F572 /* Support Files */,
+			);
+			name = WRSWechatOpenSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		61F9E90F3E8F98E4DF11EDB61455DE3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA202F6DCBFFCF54A3964B5B82874D24 /* Pods-WRSWechatOpenSDK_Example */,
+				21EA886C33410288E2B5ADFC6C993BE7 /* Pods-WRSWechatOpenSDK_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A20EC78945C47C23CB562D7C3183261 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				32F720023B5DB0938C2DD85E2BF2B9DA /* WechatAuthSDK.h */,
+				8A8FF06582F1E2746D2194DA5E401681 /* WXApi.h */,
+				C842A4434B3D237A141FA324602A266A /* WXApiObject.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		6C76A9B8D71E395CD3936610CA997B57 /* ios-arm64_i386_x86_64-simulator */ = {
+			isa = PBXGroup;
+			children = (
+				6A20EC78945C47C23CB562D7C3183261 /* Headers */,
+			);
+			name = "ios-arm64_i386_x86_64-simulator";
+			path = "V2.0.2/WechatOpenSDK-XCFramework.xcframework/ios-arm64_i386_x86_64-simulator";
+			sourceTree = "<group>";
+		};
+		7206700801CBF0A8BC0DD7CB73859AF1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F23F32798ED3DEE888076934045680A6 /* Pods-WRSWechatOpenSDK_Example */,
+				84642073544262FEF423BC861067F69D /* Pods-WRSWechatOpenSDK_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7BDAE1C81870F9A1109866FD29AD9840 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F253D685C1382930BAD9E4F0FEB4EA9 /* WRSWechatOpenSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		82FCB49781E98C475D0594F6D8622086 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0BB2F2408F7AEFD64B13A7260E6E2A41 /* LICENSE */,
+				A310255759AB1601454EE97E4752F62B /* README.md */,
+				1692F8E5E3AFB445C50B22A68F1670A4 /* WRSWechatOpenSDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		84642073544262FEF423BC861067F69D /* Pods-WRSWechatOpenSDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				75C98290C78265B651D2E1834B1A4A60 /* Pods-WRSWechatOpenSDK_Tests.modulemap */,
+				C21C25C6BC7B1ECF522C3B178A29F2C3 /* Pods-WRSWechatOpenSDK_Tests-acknowledgements.markdown */,
+				4E6543720B25A54231D812AB2B995F60 /* Pods-WRSWechatOpenSDK_Tests-acknowledgements.plist */,
+				B101D25448B2B30BFD0C2A52DD72692E /* Pods-WRSWechatOpenSDK_Tests-dummy.m */,
+				1AD231E87E9932F1571A61E8145DD60B /* Pods-WRSWechatOpenSDK_Tests-Info.plist */,
+				201E8640650F6717A7FA139FE37FF224 /* Pods-WRSWechatOpenSDK_Tests-umbrella.h */,
+				5D0A1A92F774DEF19F08BAF21B9B3F96 /* Pods-WRSWechatOpenSDK_Tests.debug.xcconfig */,
+				A3F21B069FAA35B266620F0647D7B19F /* Pods-WRSWechatOpenSDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-WRSWechatOpenSDK_Tests";
+			path = "Target Support Files/Pods-WRSWechatOpenSDK_Tests";
+			sourceTree = "<group>";
+		};
+		9CB2A3831481D205CD2DA9153369DF95 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				9988585A2264BF204BD1A095675F011B /* WechatAuthSDK.h */,
+				F4E6A8A8405ED9E9EA158983E03421C7 /* WXApi.h */,
+				29B8CCB2603C3C3A6C5E5888229CE066 /* WXApiObject.h */,
+			);
+			name = Headers;
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		C039B22679DDD5038DA93F937BD615D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				983B5665E04DC8340112501734EC58F1 /* WechatOpenSDK-XCFramework.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C73598A621245318AE2FF9D3C96DFC37 /* ios-arm64_armv7 */ = {
+			isa = PBXGroup;
+			children = (
+				9CB2A3831481D205CD2DA9153369DF95 /* Headers */,
+			);
+			name = "ios-arm64_armv7";
+			path = "V2.0.2/WechatOpenSDK-XCFramework.xcframework/ios-arm64_armv7";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7BDAE1C81870F9A1109866FD29AD9840 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				61F9E90F3E8F98E4DF11EDB61455DE3B /* Products */,
+				7206700801CBF0A8BC0DD7CB73859AF1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F23F32798ED3DEE888076934045680A6 /* Pods-WRSWechatOpenSDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				C3B5E9882E491FC195832C1823A9F6FD /* Pods-WRSWechatOpenSDK_Example.modulemap */,
+				6F2CE18666E369A025DE455FD1350E82 /* Pods-WRSWechatOpenSDK_Example-acknowledgements.markdown */,
+				F7F6EC58E2CAB7F99C2E4E82C8386CF7 /* Pods-WRSWechatOpenSDK_Example-acknowledgements.plist */,
+				CE4F0D4D221068E7AE25D20AEE785AC0 /* Pods-WRSWechatOpenSDK_Example-dummy.m */,
+				4F34DA80B643D79E7FA79F4849296F41 /* Pods-WRSWechatOpenSDK_Example-Info.plist */,
+				FD9D2A58B197163CFB54BEB3E79894E3 /* Pods-WRSWechatOpenSDK_Example-umbrella.h */,
+				763D91551FADDD6715516F17241F7A53 /* Pods-WRSWechatOpenSDK_Example.debug.xcconfig */,
+				FAB26756A29C365ACD36C1AD08A17F48 /* Pods-WRSWechatOpenSDK_Example.release.xcconfig */,
+			);
+			name = "Pods-WRSWechatOpenSDK_Example";
+			path = "Target Support Files/Pods-WRSWechatOpenSDK_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5C72188D08B0A9D165A9D41AA2593725 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10ADAFCECF14560D84053A7328CEC872 /* Pods-WRSWechatOpenSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79616112C0D33F764BC7D0F548B75F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6954F75ADF56E9C3AC5FADA6286F96EF /* Pods-WRSWechatOpenSDK_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B84BC3FB28C503DAC4B0B6B5BC94FD53 /* Pods-WRSWechatOpenSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB4981EDC85A5A79290E0EF468C60EE7 /* Build configuration list for PBXNativeTarget "Pods-WRSWechatOpenSDK_Example" */;
+			buildPhases = (
+				5C72188D08B0A9D165A9D41AA2593725 /* Headers */,
+				7FC3DCC720F0CD410E9278107FFA55AD /* Sources */,
+				CBDFCA08D94E0C844CC2981F90A671E8 /* Frameworks */,
+				E7AFBA0C9ED97B6B8ACE779D48D2828E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B39D9743395E5124B7DD35BFB001F12 /* PBXTargetDependency */,
+			);
+			name = "Pods-WRSWechatOpenSDK_Example";
+			productName = Pods_WRSWechatOpenSDK_Example;
+			productReference = FA202F6DCBFFCF54A3964B5B82874D24 /* Pods-WRSWechatOpenSDK_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D1578C6846587A3D70727C36BA6AC429 /* Pods-WRSWechatOpenSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030B70F9E26B8F47F56DE05F9A3AD35A /* Build configuration list for PBXNativeTarget "Pods-WRSWechatOpenSDK_Tests" */;
+			buildPhases = (
+				D79616112C0D33F764BC7D0F548B75F3 /* Headers */,
+				DE72B064D2232BE712139D9E59A8652D /* Sources */,
+				784CF711F2B1BBB21C93E7D928FA9D8C /* Frameworks */,
+				C17FB41516A7E2C9252599F58E26BDAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C8CC26355157362224FA59341B4FE61 /* PBXTargetDependency */,
+			);
+			name = "Pods-WRSWechatOpenSDK_Tests";
+			productName = Pods_WRSWechatOpenSDK_Tests;
+			productReference = 21EA886C33410288E2B5ADFC6C993BE7 /* Pods-WRSWechatOpenSDK_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 61F9E90F3E8F98E4DF11EDB61455DE3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B84BC3FB28C503DAC4B0B6B5BC94FD53 /* Pods-WRSWechatOpenSDK_Example */,
+				D1578C6846587A3D70727C36BA6AC429 /* Pods-WRSWechatOpenSDK_Tests */,
+				FE49D7149F9D029C555211948A929C1D /* WRSWechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C17FB41516A7E2C9252599F58E26BDAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7AFBA0C9ED97B6B8ACE779D48D2828E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20AF86FB3BB78B024F08E520E2293C49 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/WRSWechatOpenSDK/WRSWechatOpenSDK-xcframeworks.sh",
+				"${PODS_ROOT}/../../V2.0.2/WechatOpenSDK-XCFramework.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/WRSWechatOpenSDK/WechatOpenSDK-XCFramework.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/WRSWechatOpenSDK/WRSWechatOpenSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FC3DCC720F0CD410E9278107FFA55AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA60511D83DF78720BC90FC903D93924 /* Pods-WRSWechatOpenSDK_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE72B064D2232BE712139D9E59A8652D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B81AEF54FB62F6BA7C920AF55FF6CA8F /* Pods-WRSWechatOpenSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C8CC26355157362224FA59341B4FE61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WRSWechatOpenSDK_Example";
+			target = B84BC3FB28C503DAC4B0B6B5BC94FD53 /* Pods-WRSWechatOpenSDK_Example */;
+			targetProxy = F726E2E2F56004035669574E29C95B7E /* PBXContainerItemProxy */;
+		};
+		9B39D9743395E5124B7DD35BFB001F12 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WRSWechatOpenSDK;
+			target = FE49D7149F9D029C555211948A929C1D /* WRSWechatOpenSDK */;
+			targetProxy = FD225D6DCD5C37147011E2CFA0FE9435 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		169854F2D4C7BEFBEDFE5B8D21C8AFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0A1A92F774DEF19F08BAF21B9B3F96 /* Pods-WRSWechatOpenSDK_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRSWechatOpenSDK_Tests/Pods-WRSWechatOpenSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRSWechatOpenSDK_Tests/Pods-WRSWechatOpenSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1709FC888AB69742BD419DFAC301AEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3F21B069FAA35B266620F0647D7B19F /* Pods-WRSWechatOpenSDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRSWechatOpenSDK_Tests/Pods-WRSWechatOpenSDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRSWechatOpenSDK_Tests/Pods-WRSWechatOpenSDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		319E8C0EA7C141B02AC258DA458593C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 763D91551FADDD6715516F17241F7A53 /* Pods-WRSWechatOpenSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRSWechatOpenSDK_Example/Pods-WRSWechatOpenSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRSWechatOpenSDK_Example/Pods-WRSWechatOpenSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		725C015FF1190753DA8678CDA2E94287 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66403C90E4DCD89CF5BD06072F0A2308 /* WRSWechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		740C5965FEAAFF536B2E57138391D42A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAB26756A29C365ACD36C1AD08A17F48 /* Pods-WRSWechatOpenSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WRSWechatOpenSDK_Example/Pods-WRSWechatOpenSDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WRSWechatOpenSDK_Example/Pods-WRSWechatOpenSDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		C78499FAB34AFDDB297A46171EF06D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 318338D8D7C64371EF8FE4527EDCC618 /* WRSWechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030B70F9E26B8F47F56DE05F9A3AD35A /* Build configuration list for PBXNativeTarget "Pods-WRSWechatOpenSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				169854F2D4C7BEFBEDFE5B8D21C8AFF4 /* Debug */,
+				1709FC888AB69742BD419DFAC301AEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90AB2B009201893513716A77979DD021 /* Build configuration list for PBXAggregateTarget "WRSWechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C78499FAB34AFDDB297A46171EF06D02 /* Debug */,
+				725C015FF1190753DA8678CDA2E94287 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB4981EDC85A5A79290E0EF468C60EE7 /* Build configuration list for PBXNativeTarget "Pods-WRSWechatOpenSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				319E8C0EA7C141B02AC258DA458593C4 /* Debug */,
+				740C5965FEAAFF536B2E57138391D42A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

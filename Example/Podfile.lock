@@ -1,0 +1,16 @@
+PODS:
+  - WRSWechatOpenSDK (2.0.2)
+
+DEPENDENCIES:
+  - WRSWechatOpenSDK (from `../`)
+
+EXTERNAL SOURCES:
+  WRSWechatOpenSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WRSWechatOpenSDK: c71ff2715086066f75a7ff36c92e88f63be1f2cf
+
+PODFILE CHECKSUM: a6dce2b38662ef056db4c24f4d59d424b14d1f36
+
+COCOAPODS: 1.15.2
