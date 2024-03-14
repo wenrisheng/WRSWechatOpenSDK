@@ -16,6 +16,7 @@
 			dependencies = (
 			);
 			name = WRSWechatOpenSDK;
+			productName = WRSWechatOpenSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -46,8 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BB2F2408F7AEFD64B13A7260E6E2A41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1692F8E5E3AFB445C50B22A68F1670A4 /* WRSWechatOpenSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WRSWechatOpenSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0BB2F2408F7AEFD64B13A7260E6E2A41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		1692F8E5E3AFB445C50B22A68F1670A4 /* WRSWechatOpenSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WRSWechatOpenSDK.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		1AD231E87E9932F1571A61E8145DD60B /* Pods-WRSWechatOpenSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WRSWechatOpenSDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		201E8640650F6717A7FA139FE37FF224 /* Pods-WRSWechatOpenSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WRSWechatOpenSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
 		21EA886C33410288E2B5ADFC6C993BE7 /* Pods-WRSWechatOpenSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WRSWechatOpenSDK_Tests"; path = Pods_WRSWechatOpenSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +64,10 @@
 		75C98290C78265B651D2E1834B1A4A60 /* Pods-WRSWechatOpenSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WRSWechatOpenSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		763D91551FADDD6715516F17241F7A53 /* Pods-WRSWechatOpenSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSWechatOpenSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8A8FF06582F1E2746D2194DA5E401681 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
-		983B5665E04DC8340112501734EC58F1 /* WechatOpenSDK-XCFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = "WechatOpenSDK-XCFramework.xcframework"; path = "V2.0.2/WechatOpenSDK-XCFramework.xcframework"; sourceTree = "<group>"; };
+		983B5665E04DC8340112501734EC58F1 /* WechatOpenSDK-XCFramework.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = "WechatOpenSDK-XCFramework.xcframework"; path = "V2.0.2/WechatOpenSDK-XCFramework.xcframework"; sourceTree = "<group>"; };
 		9988585A2264BF204BD1A095675F011B /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = WechatAuthSDK.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A310255759AB1601454EE97E4752F62B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A310255759AB1601454EE97E4752F62B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		A3F21B069FAA35B266620F0647D7B19F /* Pods-WRSWechatOpenSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WRSWechatOpenSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B101D25448B2B30BFD0C2A52DD72692E /* Pods-WRSWechatOpenSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WRSWechatOpenSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		C21C25C6BC7B1ECF522C3B178A29F2C3 /* Pods-WRSWechatOpenSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WRSWechatOpenSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -149,7 +150,6 @@
 				8A8FF06582F1E2746D2194DA5E401681 /* WXApi.h */,
 				C842A4434B3D237A141FA324602A266A /* WXApiObject.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -212,7 +212,6 @@
 				F4E6A8A8405ED9E9EA158983E03421C7 /* WXApi.h */,
 				29B8CCB2603C3C3A6C5E5888229CE066 /* WXApiObject.h */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -633,8 +632,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
